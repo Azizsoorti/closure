@@ -20,6 +20,8 @@ const counter3 = counter();
 
 counter1.increment();
 counter2.increment();
+counter2.increment();
+counter2.increment();
 counter3.increment();
 
 console.log("Counter 1 count:", counter1.getCount()); 
